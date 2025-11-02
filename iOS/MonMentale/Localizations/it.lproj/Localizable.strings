@@ -1,0 +1,180 @@
+/* 
+  Localizable.strings (Italian)
+  MonMentale
+*/
+
+// MARK: - Common
+"common.ok" = "OK";
+"common.cancel" = "Annulla";
+"common.save" = "Salva";
+"common.delete" = "Elimina";
+"common.edit" = "Modifica";
+"common.done" = "Fatto";
+"common.loading" = "Caricamento...";
+"common.error" = "Errore";
+"common.success" = "Successo";
+"common.warning" = "Avviso";
+"common.info" = "Informazione";
+"common.retry" = "Riprova";
+"common.close" = "Chiudi";
+"common.next" = "Avanti";
+"common.previous" = "Precedente";
+"common.search" = "Cerca";
+"common.filter" = "Filtra";
+"common.sort" = "Ordina";
+"common.refresh" = "Aggiorna";
+
+// MARK: - App
+"app.name" = "Mon Mentale";
+"app.tagline" = "Il tuo benessere mentale, la nostra priorità";
+"app.welcome" = "Benvenuto";
+"app.get_started" = "Inizia";
+
+// MARK: - Authentication
+"auth.login" = "Accedi";
+"auth.register" = "Registrati";
+"auth.logout" = "Disconnetti";
+"auth.email" = "Email";
+"auth.password" = "Password";
+"auth.confirm_password" = "Conferma password";
+"auth.first_name" = "Nome";
+"auth.last_name" = "Cognome";
+"auth.forgot_password" = "Password dimenticata?";
+"auth.reset_password" = "Reimposta password";
+"auth.login_title" = "Accesso";
+"auth.register_title" = "Registrazione";
+"auth.login_subtitle" = "Accedi al tuo account";
+"auth.register_subtitle" = "Crea il tuo account";
+"auth.already_have_account" = "Hai già un account?";
+"auth.dont_have_account" = "Non hai ancora un account?";
+"auth.login_error" = "Errore di accesso";
+"auth.register_error" = "Errore di registrazione";
+"auth.email_required" = "Email richiesta";
+"auth.password_required" = "Password richiesta";
+"auth.first_name_required" = "Nome richiesto";
+"auth.last_name_required" = "Cognome richiesto";
+"auth.password_too_short" = "La password deve contenere almeno 6 caratteri";
+"auth.passwords_dont_match" = "Le password non corrispondono";
+"auth.invalid_email" = "Formato email non valido";
+
+// MARK: - User Roles
+"user_role.patient" = "Paziente";
+"user_role.psychologue" = "Psicologo";
+"user_role.psychiatre" = "Psichiatra";
+"user_role.admin" = "Amministratore";
+
+// MARK: - Mood
+"mood.title" = "Come ti senti?";
+"mood.subtitle" = "Trascina il cursore per indicare il tuo umore attuale";
+"mood.how_do_you_feel" = "Come ti senti?";
+"mood.evaluate_mood" = "Valuta il mio umore";
+"mood.today_mood" = "Il tuo umore di oggi";
+"mood.terrible" = "Terribile";
+"mood.bad" = "Male";
+"mood.okay" = "Così così";
+"mood.good" = "Bene";
+"mood.great" = "Molto bene";
+"mood.excellent" = "Eccellente";
+"mood.terrible_description" = "Mi sento davvero male oggi";
+"mood.bad_description" = "Non è una buona giornata";
+"mood.okay_description" = "Sto bene, niente di più";
+"mood.good_description" = "Mi sento abbastanza bene";
+"mood.great_description" = "Mi sento davvero bene";
+"mood.excellent_description" = "Mi sento al top";
+"mood.save" = "Salva";
+"mood.skip" = "Salta";
+"mood.journal" = "Diario";
+"mood.meditate" = "Medita";
+"mood.breathe" = "Respira";
+
+// MARK: - Navigation
+"navigation.home" = "Home";
+"navigation.search" = "Cerca";
+"navigation.appointments" = "Appuntamenti";
+"navigation.messages" = "Messaggi";
+"navigation.profile" = "Profilo";
+"navigation.settings" = "Impostazioni";
+"navigation.back" = "Indietro";
+"navigation.forward" = "Avanti";
+
+// MARK: - Home
+"home.title" = "Mon Mentale";
+"home.greeting" = "Ciao 👋";
+"home.how_do_you_feel_today" = "Come ti senti oggi?";
+"home.search_placeholder" = "Cerca uno psicologo...";
+"home.appointments" = "Appuntamenti";
+"home.this_week" = "Questa settimana";
+"home.sessions" = "Sessioni";
+"home.this_month" = "Questo mese";
+"home.progress" = "Progresso";
+"home.goals" = "Obiettivi";
+"home.upcoming_appointments" = "Prossimi appuntamenti";
+"home.see_all" = "Vedi tutto";
+"home.no_appointments" = "Nessun appuntamento";
+"home.no_appointments_message" = "Non hai appuntamenti programmati al momento.";
+"home.book_appointment" = "Prenota appuntamento";
+"home.recommended" = "Consigliati";
+"home.recommended_for_you" = "Consigliati per te";
+"home.wellness_resources" = "Risorse per il benessere";
+"home.meditation" = "Meditazione";
+"home.exercises" = "Esercizi";
+"home.journal" = "Diario";
+"home.relaxation" = "Relax";
+
+// MARK: - Appointments
+"appointments.title" = "Appuntamenti";
+"appointments.upcoming" = "Prossimi";
+"appointments.past" = "Passati";
+"appointments.cancelled" = "Annullati";
+"appointments.no_appointments" = "Nessun appuntamento";
+"appointments.no_appointments_message" = "I tuoi appuntamenti appariranno qui.";
+"appointments.book_new" = "Prenota appuntamento";
+"appointments.status" = "Stato";
+"appointments.scheduled" = "Programmato";
+"appointments.confirmed" = "Confermato";
+"appointments.in_progress" = "In corso";
+"appointments.completed" = "Completato";
+"appointments.cancelled_status" = "Annullato";
+"appointments.no_show" = "Assente";
+
+// MARK: - Practitioners
+"practitioners.title" = "Professionisti";
+"practitioners.specialization" = "Specializzazione";
+"practitioners.experience" = "Esperienza";
+"practitioners.rating" = "Valutazione";
+"practitioners.price" = "Prezzo";
+"practitioners.per_session" = "/sessione";
+"practitioners.years_experience" = "anni di esperienza";
+"practitioners.verified" = "Verificato";
+"practitioners.available" = "Disponibile";
+"practitioners.consultation_types" = "Tipi di consultazione";
+"practitioners.presentiel" = "In studio";
+"practitioners.teleconsultation" = "Teleconsulto";
+"practitioners.domicile" = "A domicilio";
+"practitioners.languages" = "Lingue";
+"practitioners.description" = "Descrizione";
+"practitioners.approach" = "Approccio";
+
+// MARK: - Profile
+"profile.title" = "Profilo";
+"profile.personal_info" = "Informazioni personali";
+"profile.payment_methods" = "Metodi di pagamento";
+"profile.notifications" = "Notifiche";
+"profile.help_support" = "Aiuto e supporto";
+"profile.settings" = "Impostazioni";
+"profile.sessions" = "Sessioni";
+"profile.this_month" = "Questo mese";
+"profile.progress" = "Progresso";
+"profile.goals" = "Obiettivi";
+
+// MARK: - Settings
+"settings.title" = "Impostazioni";
+"settings.language" = "Lingua";
+"settings.notifications" = "Notifiche";
+"settings.privacy" = "Privacy";
+"settings.about" = "Informazioni";
+"settings.version" = "Versione";
+"settings.support" = "Supporto";
+"settings.terms" = "Termini di utilizzo";
+"settings.privacy_policy" = "Politica sulla privacy";
+

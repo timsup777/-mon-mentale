@@ -1,0 +1,59 @@
+================================================================================
+    CONFIGURATION MONGODB ATLAS POUR PRODUCTION
+================================================================================
+
+ÉTAPE 1 : Créer un Utilisateur
+-------------------------------
+1. Dans MongoDB Atlas, allez dans "Database Access" (menu gauche)
+2. Cliquez "Add New Database User"
+3. Choisissez ces paramètres :
+   - Authentication Method: Password
+   - Username: monmentale_prod
+   - Password: (cliquez "Autogenerate Secure Password" et COPIEZ-LE!)
+   - Database User Privileges: "Atlas admin" ou "Read and write to any database"
+4. Cliquez "Add User"
+
+⚠️ IMPORTANT: Notez bien votre password !
+
+ÉTAPE 2 : Autoriser l'Accès Réseau
+-----------------------------------
+1. Allez dans "Network Access" (menu gauche)
+2. Cliquez "Add IP Address"
+3. Choisissez "ALLOW ACCESS FROM ANYWHERE"
+4. IP Address: 0.0.0.0/0
+5. Cliquez "Confirm"
+
+ÉTAPE 3 : Obtenir la Connexion String
+--------------------------------------
+1. Retournez dans "Database" (menu gauche)
+2. Sur votre Cluster0, cliquez "Connect"
+3. Choisissez "Drivers"
+4. Sélectionnez:
+   - Driver: Node.js
+   - Version: 5.5 or later
+5. COPIEZ la connexion string qui ressemble à:
+
+   mongodb+srv://monmentale_prod:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
+
+6. Remplacez <password> par votre vrai mot de passe
+7. Ajoutez /mon-mentale avant le ? pour avoir:
+
+   mongodb+srv://monmentale_prod:VOTRE_PASSWORD@cluster0.xxxxx.mongodb.net/mon-mentale?retryWrites=true&w=majority
+
+ÉTAPE 4 : Testez la Connexion
+------------------------------
+Une fois que vous avez votre connexion string complète, gardez-la précieusement !
+Vous en aurez besoin pour le déploiement sur Render.
+
+================================================================================
+NOTEZ VOS IDENTIFIANTS ICI (ne partagez jamais ce fichier!)
+================================================================================
+
+Username: monmentale_prod
+Password: _________________________________
+
+Connexion String Complète:
+mongodb+srv://monmentale_prod:___________@cluster0._____.mongodb.net/mon-mentale?retryWrites=true&w=majority
+
+================================================================================
+
