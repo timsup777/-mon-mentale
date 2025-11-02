@@ -3,6 +3,36 @@
   background: var(--bg-secondary);
 }
 
+/* Demo Banner */
+.demo-banner {
+  background: linear-gradient(135deg, #FFA500, #FF6347);
+  color: white;
+  padding: 12px 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.demo-banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.demo-icon {
+  font-size: 20px;
+}
+
+.demo-text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.demo-text strong {
+  font-weight: 700;
+}
+
 /* Header */
 .search-header {
   background: white;

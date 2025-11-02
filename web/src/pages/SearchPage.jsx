@@ -122,6 +122,16 @@ function SearchPage() {
 
   return (
     <div className="search-page">
+      {/* Demo Banner */}
+      <div className="demo-banner">
+        <div className="container">
+          <span className="demo-icon">⚠️</span>
+          <span className="demo-text">
+            <strong>Version démo</strong> - Les praticiens affichés sont des exemples fictifs pour démonstration.
+          </span>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="search-header">
         <div className="container">
@@ -194,7 +204,7 @@ function SearchPage() {
       <div className="results-section">
         <div className="container">
           <div className="results-header">
-            <h2>{practitioners.length} praticiens disponibles</h2>
+            <h2>{practitioners.length} praticiens (démo)</h2>
             <div className="sort-options">
               <label>Trier par:</label>
               <select className="sort-select">
@@ -258,8 +268,8 @@ function SearchPage() {
                       ⏰ {practitioner.nextAvailable}
                     </span>
                   </div>
-                  <button className="btn btn-primary btn-book">
-                    Prendre RDV
+                  <button className="btn btn-primary btn-book" disabled title="Démo seulement">
+                    Voir le profil
                   </button>
                 </div>
               </div>

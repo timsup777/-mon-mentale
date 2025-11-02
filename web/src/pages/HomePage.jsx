@@ -14,17 +14,17 @@ function HomePage() {
   ]
 
   const stats = [
-    { number: '10,000+', label: 'Patients aidés' },
-    { number: '500+', label: 'Praticiens qualifiés' },
-    { number: '4.9/5', label: 'Note moyenne' },
-    { number: '24/7', label: 'Disponibilité' }
+    { number: '2025', label: 'Nouvelle plateforme' },
+    { number: '100%', label: 'Sécurisé' },
+    { number: 'Bientôt', label: 'Lancement officiel' },
+    { number: '24/7', label: 'Support technique' }
   ]
 
   const features = [
     {
       icon: '🔍',
       title: 'Trouvez votre praticien',
-      description: 'Recherchez parmi des centaines de psychologues et psychiatres qualifiés près de chez vous'
+      description: 'Système de recherche intelligent pour trouver des psychologues et psychiatres qualifiés près de chez vous'
     },
     {
       icon: '📅',
@@ -45,6 +45,16 @@ function HomePage() {
 
   return (
     <div className="homepage">
+      {/* Demo Banner */}
+      <div className="demo-banner">
+        <div className="container">
+          <span className="demo-icon">⚠️</span>
+          <span className="demo-text">
+            <strong>Projet de démonstration</strong> - Cette plateforme est en cours de développement. Les praticiens affichés sont des exemples fictifs.
+          </span>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-bg">
@@ -79,14 +89,14 @@ function HomePage() {
                 <span className="gradient-text">notre priorité</span>
               </h1>
               <p className="hero-description fade-in">
-                Trouvez le praticien qui vous correspond parmi des centaines de psychologues et psychiatres qualifiés. Prenez rendez-vous en ligne en quelques clics.
+                Nouvelle plateforme en développement pour faciliter l'accès aux professionnels de santé mentale. Connectez-vous avec des psychologues et psychiatres qualifiés près de chez vous.
               </p>
               <div className="hero-buttons fade-in">
                 <button 
                   className="btn btn-primary btn-lg"
                   onClick={() => navigate('/recherche')}
                 >
-                  <span>Trouver un praticien</span>
+                  <span>Voir la démo</span>
                   <span>→</span>
                 </button>
                 <button className="btn btn-secondary btn-lg">
@@ -123,7 +133,7 @@ function HomePage() {
         <div className="container">
           <div className="section-header">
             <h2>Pourquoi choisir Mon Mentale ?</h2>
-            <p>Une plateforme moderne conçue pour faciliter l'accès aux soins de santé mentale</p>
+            <p>Une plateforme en développement conçue pour faciliter l'accès aux soins de santé mentale</p>
           </div>
           
           <div className="features-grid">
@@ -200,13 +210,13 @@ function HomePage() {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2>Prêt à prendre soin de votre santé mentale ?</h2>
-            <p>Trouvez le praticien qui vous correspond et prenez rendez-vous dès maintenant</p>
+            <h2>Intéressé par notre projet ?</h2>
+            <p>Découvrez notre interface et explorez les fonctionnalités en développement</p>
             <button 
               className="btn btn-primary btn-lg"
               onClick={() => navigate('/recherche')}
             >
-              <span>Commencer maintenant</span>
+              <span>Découvrir la démo</span>
               <span>→</span>
             </button>
           </div>
@@ -222,7 +232,7 @@ function HomePage() {
                 <span className="logo-icon">🧠</span>
                 <span className="logo-text">Mon Mentale</span>
               </div>
-              <p>Votre santé mentale, notre priorité</p>
+              <p>Plateforme en développement - Version démo</p>
             </div>
             
             <div className="footer-section">
