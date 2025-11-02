@@ -1,0 +1,69 @@
+================================================================================
+    COMMANDES À COPIER-COLLER (dans cet ordre)
+================================================================================
+
+ÉTAPE 1 : Aller sur GitHub
+---------------------------
+→ https://github.com
+→ Créer un compte si besoin
+→ Cliquer "+" → "New repository"
+→ Nom : mon-mentale
+→ Public
+→ Create repository
+
+
+ÉTAPE 2 : Pousser le code sur GitHub
+-------------------------------------
+Copier-coller ces 3 lignes dans Terminal (une par une) :
+
+cd /Users/timotheeberthelot/Desktop/MM3-1
+
+git remote add origin https://github.com/VOTRE_USERNAME/mon-mentale.git
+
+git push -u origin main
+
+⚠️ Remplacez VOTRE_USERNAME par votre vrai username GitHub !
+
+
+ÉTAPE 3 : Déployer sur Railway
+-------------------------------
+→ https://railway.app
+→ Login with GitHub
+→ New Project
+→ Deploy from GitHub repo
+→ Sélectionner "mon-mentale"
+→ Deploy Now
+
+
+ÉTAPE 4 : Ajouter MongoDB
+--------------------------
+Dans Railway :
+→ + New
+→ Database → Add MongoDB
+→ Cliquer sur votre service (mon-mentale)
+→ Variables → Add Variable :
+   JWT_SECRET = Mon_Secret_Super_Securise_2024
+   JWT_EXPIRE = 7d
+→ Settings → Generate Domain
+
+
+ÉTAPE 5 : Tester
+----------------
+Copier-coller (remplacer l'URL) :
+
+curl https://votre-url.up.railway.app/api/test
+
+
+================================================================================
+RÉSULTAT : Votre site est en ligne ! 🎉
+================================================================================
+
+Pour mettre à jour plus tard :
+-------------------------------
+cd /Users/timotheeberthelot/Desktop/MM3-1
+git add .
+git commit -m "mes modifications"
+git push
+
+Railway redéploie automatiquement !
+
